@@ -24,12 +24,12 @@ main {
 }
 
 span.scritto-da {
-    font-size: 12px;
+    font-size: 15px;
     color: #999
 }
 
 span.data-pubblicaz {
-    font-size: 10px;
+    font-size: 12px;
     color: #999;
 }
 
@@ -50,7 +50,7 @@ div.sezione-foto {
 }
 
 span.descrizione-img {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 div.lista ul {
