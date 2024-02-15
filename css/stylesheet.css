@@ -52,3 +52,19 @@ div.sezione-foto {
 span.descrizione-img {
     font-size: 10px;
 }
+
+th {
+    text-align: left;
+    background-color: rgb(109, 157, 254);
+    color: white;
+}
+
+th.colonna1,
+th.colonna2 {
+    width: 25%;
+}
+
+tr.riga1 td,
+tr.riga3 td {
+    background-color: rgb(202, 216, 231);
+}
