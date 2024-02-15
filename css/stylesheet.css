@@ -1,14 +1,54 @@
+body {
+    margin: 0px;
+}
+
 .logo-header {
-    width: 200px;
-    padding: 30px 20px;
+    width: 160px;
     position: center;
 }
 
 .header {
     /* background-image: url("img/pattern.png"); */
     background-color: #9fcef7;
+    padding: 25px 15px;
 }
 
-body {
-    margin: 0px;
+main {
+    padding: 15px;
+}
+
+.titolo-articolo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+span.scritto-da {
+    font-size: 12px;
+    color: #999
+}
+
+span.data-pubblicaz {
+    font-size: 10px;
+    color: #999;
+}
+
+em {
+    font-style: normal;
+    color: #abf;
+}
+
+div.sezione-foto {
+    margin-top: 10px;
+
+}
+
+.immagini {
+    height: 270px;
+    /* le due immagini hanno proporzioni diverse, ma nella pagina esempio hanno la stessa altezza. considerando che se definiamo una misura, l'altra si adatta mantenendo le proporzioni ho deciso di definire l'altezza e ottenere il risultato richiesto*/
+
+}
+
+span.descrizione-img {
+    font-size: 10px;
 }

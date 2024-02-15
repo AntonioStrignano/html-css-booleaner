@@ -20,20 +20,26 @@
     <!-- main -->
     <main>
         <section>
-            <div>
-                <!-- Intestazione articolo -->
-                <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-                <span class="scritto-da">Scritto da <em>The Booleaner</em></span>
-                <span>il 10/10/2020</span>
+            <!-- Intestazione articolo -->
+            <div class="intestazione-articolo">
+                <h1 class="titolo-articolo">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim
+                    Berners-Lee</h1>
+                <span class="scritto-da">Scritto da <em>The Booleaner</em></span><br>
+                <span class="data-pubblicaz">il 10/10/2020</span>
             </div>
-            <div>
-                <!-- "Blocco" foto -->
-                <img src="img/tim-1.jpg" alt="John S. and James L. King Foundation, by Scott Henrichsen">
-                <img src="img/tim-2.jpg" alt="Wikimedia, by Paul Clarke">
+            <div class="sezione-foto">
+                <!-- Sezione foto -->
+                <img class="immagini" src="img/tim-1.jpg"
+                    alt="John S. and James L. King Foundation, by Scott Henrichsen">
+                <img class="immagini" src="img/tim-2.jpg" alt="Wikimedia, by Paul Clarke">
+                <br>
                 <span class="descrizione-img">1st photo: John S. and James L. King Foundation, by Scott
                     Henrichsen<br>2nd
                     photo: Wikimedia, by Paul Clarke</span>
             </div>
+
+            <!-- Dato che la pagina prevede solo un unico titolo e che per ogni section c'è bisogno di un titolo, intuisco che tutto il contenuto dell articolo faccia parte dello stesso elemento section, quindi uso l'elemento div per suddividere le parti dato che non ha valore semantico -->
+
         </section>
     </main>
     <!-- /main -->
