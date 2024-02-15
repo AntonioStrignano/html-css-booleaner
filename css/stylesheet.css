@@ -68,3 +68,14 @@ tr.riga1 td,
 tr.riga3 td {
     background-color: rgb(202, 216, 231);
 }
+
+div.footer {
+    background-color: #117;
+    padding: 10px;
+}
+
+div.footer p {
+    text-align: center;
+    vertical-align: center;
+    color: white;
+}
