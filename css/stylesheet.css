@@ -53,6 +53,10 @@ span.descrizione-img {
     font-size: 10px;
 }
 
+div.lista ul {
+    padding: 15px;
+}
+
 th {
     text-align: left;
     background-color: rgb(109, 157, 254);
