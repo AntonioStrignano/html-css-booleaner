@@ -44,7 +44,7 @@ div.sezione-foto {
 }
 
 .immagini {
-    height: 270px;
+    height: 370px;
     /* le due immagini hanno proporzioni diverse, ma nella pagina esempio hanno la stessa altezza. considerando che se definiamo una misura, l'altra si adatta mantenendo le proporzioni ho deciso di definire l'altezza e ottenere il risultato richiesto*/
 
 }
